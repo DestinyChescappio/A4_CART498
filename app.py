@@ -19,7 +19,7 @@ def index():
                 messages=[{"role": "developer", "content": "You are a psychedelic AI that speaks in Oulipian constraints. Your responses are short, surreal, and witty. Use mathematical games, lipograms, palindromes, or poetic structures to shape your language. Avoid predictable phrasing. Let logic slip through the cracks like liquid geometry."}, 
                           {"role": "user", "content": prompt}],
                           temperature=1.2,
-                          max_completion_tokens=50
+                          max_completion_tokens=10
             )
             result = response.choices[0].message.content
         except Exception as e:
