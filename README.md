@@ -18,3 +18,6 @@ pip3 install flask openai python-dotenv
 # Run the app
 python3 app.py
 ```
+
+# Project Report 
+Jungian psychology, with its concepts of archetypes, the collective unconcious, and symbolism, provides a representation for understanding dreams and generating meaningful images.  
